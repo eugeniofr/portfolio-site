@@ -16,7 +16,7 @@ export const metadata = {
   description: "Bridging the gap between aesthetic design and software engineering to build digital experiences.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"

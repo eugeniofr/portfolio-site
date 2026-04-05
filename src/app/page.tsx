@@ -1,7 +1,7 @@
 export default function Home() {
 
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-center bg-zinc-950 text-zinc-50 px-4">
+		<main className="flex min-h-screen flex-col items-center justify-center px-4">
 			<div className="text-center space-y-6">
 				<h1 className="text-8xl font-display font-black text-orange">Eugenio Felix</h1>
 				<p className="text-3xl max-w-lg mx-auto font-sans font-bold text-light">Software, Design, and Photography</p>
