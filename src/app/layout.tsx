@@ -1,5 +1,6 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,7 +23,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
-      <body className="font-sans antialiased min-h-full flex flex-col">{children}</body>
+      <body className="font-sans antialiased min-h-full flex flex-col">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
